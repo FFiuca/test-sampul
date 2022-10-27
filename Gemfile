@@ -70,3 +70,8 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem 'jquery-rails'
+gem 'pusher'
+gem 'figaro'
+gem 'rack-cors', '~> 1.1', '>= 1.1.1'
