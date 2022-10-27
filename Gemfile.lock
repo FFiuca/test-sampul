@@ -230,7 +230,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   jquery-rails
-  pg
+  pg (~> 1.1)
   puma (~> 5.0)
   pusher
   rack-cors (~> 1.1, >= 1.1.1)
