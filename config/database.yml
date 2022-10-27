@@ -87,6 +87,7 @@ test:
 #
 production:
   <<: *default
-  database: db_prod
-  username: root
-  password: root
+  database: dfr2tv01bcunuf
+  username: fdjtgzgbalnspg
+  password: 2837efbf210ae3c19e3bfa913482bec3946e733b498f7a48671ac54b27662913
+  host: ec2-3-214-2-141.compute-1.amazonaws.com
