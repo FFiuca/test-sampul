@@ -25,9 +25,13 @@ default: &default
 
 development:
   <<: *default
-  database: db_dev
-  username: root
-  password: root
+  # database: db_dev
+  # username: root
+  # password: root
+  database: dfr2tv01bcunuf
+  username: fdjtgzgbalnspg
+  password: 2837efbf210ae3c19e3bfa913482bec3946e733b498f7a48671ac54b27662913
+  host: ec2-3-214-2-141.compute-1.amazonaws.com
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -61,9 +65,13 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: db_test
-  username: root
-  password: root
+  # database: db_test
+  # username: root
+  # password: root
+  database: dfr2tv01bcunuf
+  username: fdjtgzgbalnspg
+  password: 2837efbf210ae3c19e3bfa913482bec3946e733b498f7a48671ac54b27662913
+  host: ec2-3-214-2-141.compute-1.amazonaws.com
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
